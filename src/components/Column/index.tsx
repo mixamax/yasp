@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import { TInstanceDTO } from "../../model/types";
 import styles from "./column.module.css";
 
