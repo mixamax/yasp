@@ -1,0 +1,85 @@
+@import url("../../assets/fonts.css");
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 534px;
+    max-width: 591px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: var(--white);
+    /* position: relative; */
+}
+.title {
+    margin-left: 20px;
+    margin-top: 13px;
+    font-size: 16px;
+    font-family: "Roboto-Medium", sans-serif;
+}
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ellipsis {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 10;
+    font-family: "Roboto-Medium", sans-serif;
+    margin-right: 12px;
+    margin-top: 13px;
+    position: relative;
+}
+.ellipsis:hover {
+    background-color: gainsboro;
+}
+.description {
+    display: flex;
+    justify-content: space-around;
+}
+.description-item-box {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+}
+.description-item-box_client {
+    background-color: var(--client);
+}
+.description-item-box_server {
+    background-color: var(--server);
+}
+.description-item-box_bd {
+    background-color: var(--bd);
+}
+.description-item {
+    display: flex;
+    align-items: center;
+}
+.description-item-name {
+    margin-left: 9px;
+    font-size: 10px;
+}
+.modal {
+    position: absolute;
+    line-height: 1.5;
+    font-size: 12px;
+    top: 20px;
+    right: 15px;
+    width: 100px;
+    height: 110px;
+    background-color: rgb(229, 228, 229);
+    border-radius: 5px;
+    z-index: 10;
+}
+li {
+    cursor: pointer;
+}
+li:hover {
+    color: var(--client);
+}

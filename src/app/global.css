@@ -1,0 +1,19 @@
+@import "../assets/fonts.css";
+
+:root {
+    --white: #fff;
+    --grey: #898290;
+    --client: #4ab6e8;
+    --server: #aa6fac;
+    --bd: #e85498;
+    --bad: #fc440f;
+    --good: #00cc99;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+    color: var(--grey);
+    font-family: "Roboto-Regular", sans-serif;
+    box-sizing: border-box;
+}

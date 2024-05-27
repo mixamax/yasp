@@ -1,0 +1,54 @@
+@import "../../assets/fonts.css";
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    max-height: 265px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.columnPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: blue;
+    color: var(--white);
+    font-size: 14px;
+    font-family: "Roboto-Bold", sans-serif;
+}
+.column-title {
+    font-size: 10px;
+    margin-top: 15px;
+}
+.column-norma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 5px,
+        var(--client) 5px,
+        var(--client) 14px
+    );
+    height: 100%;
+}
+.column-norma-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 24px;
+    border-radius: 5px;
+    background-color: var(--white);
+    z-index: 1;
+    font-size: 14px;
+    font-family: "Roboto-Bold", sans-serif;
+}

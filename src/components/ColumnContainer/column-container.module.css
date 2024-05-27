@@ -1,0 +1,17 @@
+.column-container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 431px;
+    width: 100%;
+    gap: 5px;
+    padding: 0 48px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    margin-top: 48px;
+}
+@media screen and (max-width: 440px) {
+    .column-container {
+        padding: 0 12px;
+    }
+}
