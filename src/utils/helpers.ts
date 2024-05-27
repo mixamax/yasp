@@ -21,7 +21,7 @@ export function changeData(obj: TInstance, max: number) {
     //         data[key][`${i}Height`] = (data[key][i] / max) * 100;
     //     }
     // }
-    dataResult.norm = { normNumber: norm || 0, normHeight: norm || 0 / max };
+    dataResult.norm = { normNumber: norm || 0, normHeight: (norm || 0) / max };
     dataResult.dev.frontHeight = obj.dev.front / max;
     dataResult.dev.backHeight = obj.dev.back / max;
     dataResult.dev.dbHeight = obj.dev.db / max;
